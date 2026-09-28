@@ -1,0 +1,14 @@
+2026-09-28T20:49:39.081265,observation,"[{'id': 1, 'name': 'Café en grano', 'quantity': 25.0, 'unit': 'kg'}, {'id': 2, 'name': 'Leche', 'quantity': 40.0, 'unit': 'litros'}, {'id': 3, 'name': 'Azúcar', 'quantity': 15.0, 'unit': 'kg'}, {'id': 4, 'name': 'Vasos de cartón', 'quantity': 200.0, 'unit': 'unidades'}, {'id': 5, 'name': 'Chocolate', 'quantity': 8.0, 'unit': 'kg'}, {'id': 6, 'name': 'Pan', 'quantity': 12.0, 'unit': 'kg'}]"
+2026-09-28T20:49:40.079476,assistant,"**Productos que necesitan atención**  
+- **Chocolate** (8 kg)
+
+**Acción recomendada**  
+- Realizar un pedido de reposición de chocolate para asegurar que el inventario vuelva a un nivel adecuado (por ejemplo, 20 kg o más)."
+2026-09-28T20:52:30.327847,observation,"[{'id': 1, 'name': 'Café en grano', 'quantity': 25.0, 'unit': 'kg'}, {'id': 2, 'name': 'Leche', 'quantity': 40.0, 'unit': 'litros'}, {'id': 3, 'name': 'Azúcar', 'quantity': 15.0, 'unit': 'kg'}, {'id': 4, 'name': 'Vasos de cartón', 'quantity': 200.0, 'unit': 'unidades'}, {'id': 5, 'name': 'Chocolate', 'quantity': 8.0, 'unit': 'kg'}, {'id': 6, 'name': 'Pan', 'quantity': 12.0, 'unit': 'kg'}]"
+2026-09-28T20:52:31.015092,assistant,"**Productos que necesitan atención (cantidad < 10):**  
+- Chocolate – 8 kg
+
+**Acción recomendada:**  
+- Realizar un pedido de reposición para el chocolate (por ejemplo, solicitar entre 10 y 15 kg adicionales) y actualizar el inventario una vez recibido."
+2026-09-28T20:52:31.022558,action,"{'id': 5, 'name': 'Chocolate', 'quantity': 20.0, 'unit': 'kg'}"
+2026-09-28T20:52:31.040765,update,"[{'id': 1, 'name': 'Café en grano', 'quantity': 25.0, 'unit': 'kg'}, {'id': 2, 'name': 'Leche', 'quantity': 40.0, 'unit': 'litros'}, {'id': 3, 'name': 'Azúcar', 'quantity': 15.0, 'unit': 'kg'}, {'id': 4, 'name': 'Vasos de cartón', 'quantity': 200.0, 'unit': 'unidades'}, {'id': 5, 'name': 'Chocolate', 'quantity': 20.0, 'unit': 'kg'}, {'id': 6, 'name': 'Pan', 'quantity': 12.0, 'unit': 'kg'}]"
